@@ -1,0 +1,19 @@
+<template name="productCard">
+<div class="col-lg-2 col-md-4 col-xs-6 thumb ">
+  <div class="thumbnail">
+    <a class="" href="/products/{{id}}">
+      <img class="img-responsive" src="/img/{{image}}" alt="">
+      <div class="wrapper">
+        <div class="caption post-content">
+          <h4>{{title}}</h4>
+        </div>
+      </div>
+    </a>
+    <div class="wrapper">
+      <div class="post-meta">
+        <div class="price">{{price}} €</div>
+      </div>
+    </div>
+  </div>
+</div>
+</template>
