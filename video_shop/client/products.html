@@ -1,0 +1,11 @@
+<template name="products">
+<div class="container products">
+  <h1>Productos Disponibles</h1>
+  <hr>
+  <div class="row category-credit" style="margin-top:20px">
+    {{#each products}}
+      {{ > productCard}}
+    {{/each}}
+  </div>
+</div>
+</template>
